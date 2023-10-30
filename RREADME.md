@@ -7,6 +7,6 @@
 
 ## Language & packages
 
-- TypeScript, Express, cors, dotenv, ts node dev, ESLint, Prettier, Husky
+- TypeScript, Express, cors, dotenv, ts node dev, ESLint, Prettier, Husky & lint-staged
 
 -
