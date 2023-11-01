@@ -1,15 +1,15 @@
-/* eslint-disable no-console */
 import app from './app'
 import config from './config'
+import { logger, errorLogger } from './shared/logger'
 
 async function main() {
   try {
-    console.log(`Database Connected Successfully`)
+    logger.info(`Database Connected Successfully`)
     app.listen(config.port, () => {
-      console.log(`Example app listening on port ${config.port}`)
+      logger.info(`Application listening on port ${config.port}`)
     })
   } catch (err) {
-    console.log(`Application listening on port ${config.port}`)
+    errorLogger.error(`Application listening on port ${config.port}`)
   }
 }
 
