@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\Edge N Roots\\server-boilerplate\\logs\\winston\\errors\\.55c5b713357bbff825f6649c00d8d5328279aaf5-audit.json",
+    "files": [
+        {
+            "date": 1698829078957,
+            "name": "E:\\Edge N Roots\\server-boilerplate\\logs\\winston\\errors\\2023-01-11-14-error.log",
+            "hash": "c2e61899c3934f133465bf51c64b9593f84b84a302176184892897a9175d9b97"
+        }
+    ],
+    "hashType": "sha256"
+}

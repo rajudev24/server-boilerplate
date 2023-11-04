@@ -11,7 +11,7 @@ const myFormat = printf(({ level, message, label, timestamp }) => {
   return `${date.toDateString()} ${hour}:${minutes}:${seconds} [${label}] ${level}: ${message}`
 })
 
-const logger = createLogger({
+const infoLogger = createLogger({
   level: 'info',
   format: combine(
     label({ label: 'Server Boilerplate' }),
@@ -26,12 +26,12 @@ const logger = createLogger({
         'logs',
         'winston',
         'successes',
-        'success-%DATE%.log',
+        '%DATE%-success.log',
       ),
       datePattern: 'YYYY-DD-MM-HH',
       zippedArchive: true,
       maxSize: '20m',
-      maxFiles: '14d',
+      maxFiles: '7d',
     }),
   ],
 })
@@ -51,14 +51,14 @@ const errorLogger = createLogger({
         'logs',
         'winston',
         'errors',
-        'error-%DATE%.log',
+        '%DATE%-error.log',
       ),
       datePattern: 'YYYY-DD-MM-HH',
       zippedArchive: true,
       maxSize: '20m',
-      maxFiles: '14d',
+      maxFiles: '7d',
     }),
   ],
 })
 
-export { logger, errorLogger }
+export { infoLogger, errorLogger }

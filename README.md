@@ -9,4 +9,6 @@
 
 - TypeScript, Express, cors, dotenv, ts node dev, ESLint, Prettier, Husky & lint-staged
 
-- Winston,
+- Winston, Winston-daily-rotate-file, Zod
+
+- MongoDB, mongoose,
