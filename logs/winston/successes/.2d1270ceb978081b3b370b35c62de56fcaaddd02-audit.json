@@ -1,20 +1,20 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 7
+  "keep": {
+    "days": true,
+    "amount": 7
+  },
+  "auditLog": "E:\\Edge N Roots\\server-boilerplate\\logs\\winston\\successes\\.2d1270ceb978081b3b370b35c62de56fcaaddd02-audit.json",
+  "files": [
+    {
+      "date": 1699103073994,
+      "name": "E:\\Edge N Roots\\server-boilerplate\\logs\\winston\\successes\\2023-04-11-19-success.log",
+      "hash": "90ade9fcd1167cd253fbe40d87e814cb5b6defdf2cefa9462bcdedee6d71fa2c"
     },
-    "auditLog": "E:\\Edge N Roots\\server-boilerplate\\logs\\winston\\successes\\.2d1270ceb978081b3b370b35c62de56fcaaddd02-audit.json",
-    "files": [
-        {
-            "date": 1699103073994,
-            "name": "E:\\Edge N Roots\\server-boilerplate\\logs\\winston\\successes\\2023-04-11-19-success.log",
-            "hash": "90ade9fcd1167cd253fbe40d87e814cb5b6defdf2cefa9462bcdedee6d71fa2c"
-        },
-        {
-            "date": 1699106522242,
-            "name": "E:\\Edge N Roots\\server-boilerplate\\logs\\winston\\successes\\2023-04-11-20-success.log",
-            "hash": "7fbad41bef428143f52e21aae9cacc83d8cb8deb0d26599458529fcaa81cc9d4"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1699106522242,
+      "name": "E:\\Edge N Roots\\server-boilerplate\\logs\\winston\\successes\\2023-04-11-20-success.log",
+      "hash": "7fbad41bef428143f52e21aae9cacc83d8cb8deb0d26599458529fcaa81cc9d4"
+    }
+  ],
+  "hashType": "sha256"
 }
